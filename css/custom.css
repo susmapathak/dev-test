@@ -1,0 +1,26 @@
+.custom-gallery figure{
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.picture-left{
+    padding-right: 0px;
+}
+
+.picture-right {
+    padding-left: 0px;
+}
+
+@media only screen and (max-width: 726px){
+    .picture-left {
+        padding-right: 15px;
+    }
+
+    .picture-right {
+        padding-left: 15px;
+    }
+}
+
