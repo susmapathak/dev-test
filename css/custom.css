@@ -24,3 +24,141 @@
     }
 }
 
+.hero-unit-space-exploration .hero-image {
+    width: auto;
+    height: 960px;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/images/final-frontier_large.jpg)
+}
+
+@media only screen and (min-width:1441px) {
+    .hero-unit-space-exploration .hero-image {
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
+    .hero-unit-space-exploration .hero-image {
+        background-image: url(/images/final-frontier_large_2x.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media only screen and (max-width:1068px) {
+    .hero-unit-space-exploration .hero-image {
+        width: auto;
+        height: 712px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(/images/final-frontier_medium.jpg)
+    }
+}
+
+@media only screen and (max-width:1068px) and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px) and (min-resolution:1.5dppx),
+only screen and (max-width:1068px) and (min-resolution:144dpi) {
+    .hero-unit-space-exploration .hero-image {
+        background-image: url(/images/final-frontier_medium_2x.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media only screen and (max-width:735px) {
+    .hero-unit-space-exploration .hero-image {
+        width: auto;
+        height: 490px;
+        background-repeat: no-repeat;
+        background-image: url(/images/final-frontier_small.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media only screen and (max-width:735px) and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:735px) and (min-resolution:1.5dppx),
+only screen and (max-width:735px) and (min-resolution:144dpi) {
+    .hero-unit-space-exploration .hero-image {
+        background-image: url(/images/final-frontier_small_2x.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+
+.hero-unit-moon-exploration .hero-image {
+    width: auto;
+    height: 960px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/images/luna_large.jpg)
+}
+
+@media only screen and (min-width:1441px) {
+    .hero-unit-moon-exploration .hero-image {
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
+    .hero-unit-moon-exploration .hero-image {
+        background-image: url(/images/luna_large_2x.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media only screen and (max-width:1068px) {
+    .hero-unit-moon-exploration .hero-image {
+        width: auto;
+        height: 712px;
+        background-repeat: no-repeat;
+        background-image: url(/images/luna_medium.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media only screen and (max-width:1068px) and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px) and (min-resolution:1.5dppx),
+only screen and (max-width:1068px) and (min-resolution:144dpi) {
+    .hero-unit-moon-exploration .hero-image {
+        background-image: url(/images/luna_medium_2x.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media only screen and (max-width:735px) {
+    .hero-unit-moon-exploration .hero-image {
+        width: auto;
+        height: 490px;
+        background-repeat: no-repeat;
+        background-image: url(/images/luna_small.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media only screen and (max-width:735px) and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:735px) and (min-resolution:1.5dppx),
+only screen and (max-width:735px) and (min-resolution:144dpi) {
+    .hero-unit-moon-exploration .hero-image {
+        background-image: url(/images/luna_small_2x.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}
